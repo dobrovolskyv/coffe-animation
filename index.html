@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="circle"></div>
+      <div class="container">
+        <nav class="nav">
+          <a class="logo__link" href=""><img class="logo__img" src="./img/logo.png" alt="logo" /></a>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Menu</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">What's New</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="content">
+          <div class="content__description">
+            <h2 class="content__title">
+              It's not just Coffee<br />
+              It's <span>Starbucks</span>
+            </h2>
+            <p class="content__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo officia sint rem voluptas
+              exercitationem!
+            </p>
+            <a class="header__btn" href="">Learn More</a>
+          </div>
+          <div class="content__img">
+            <img class="coffe__img" src="./img/img1.png" alt="starbucks" />
+          </div>
+          <ul class="thumb">
+            <li>
+              <img src="./img/thumb1.png" alt="" onclick="imgSlider('./img/img1.png');changeCircleColor('#017143')" />
+            </li>
+            <li>
+              <img src="./img/thumb2.png" alt="" onclick="imgSlider('./img/img2.png');changeCircleColor('#eb7495')" />
+            </li>
+            <li>
+              <img src="./img/thumb3.png" alt="" onclick="imgSlider('./img/img3.png');changeCircleColor('#d752b1')" />
+            </li>
+          </ul>
+          <ul class="socials__list">
+            <li class="socials__item">
+              <a href=""><img src="./img/facebook.png" alt="" /></a>
+            </li>
+            <li class="socials__item">
+              <a href=""><img src="./img/twitter.png" alt="" /></a>
+            </li>
+            <li class="socials__item">
+              <a href=""><img src="./img/instagram.png" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
